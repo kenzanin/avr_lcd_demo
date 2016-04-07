@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1460002275 source:/home/kenzanin/tmp/avr/keypad01/displayFB.c
+	<avr/io.h>
+	<util/delay.h>
+	"displayFB.h"
+	"keypad.h"
+
+1460002189 /home/kenzanin/tmp/avr/keypad01/displayFB.h
+	<avr/io.h>
+
+1459999481 source:/home/kenzanin/tmp/avr/keypad01/isrT0.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<stdio.h>
+	<string.h>
+	"keypad.h"
+	"lcd.h"
+	"displayFB.h"
+
+1460002007 /home/kenzanin/tmp/avr/keypad01/keypad.h
+
+1459999306 /home/kenzanin/tmp/avr/keypad01/lcd.h
+	<inttypes.h>
+	<avr/pgmspace.h>
+	"lcd_definitions.h"
+
+1459999306 source:/home/kenzanin/tmp/avr/keypad01/lcd.c
+	<inttypes.h>
+	<avr/io.h>
+	<avr/pgmspace.h>
+	<util/delay.h>
+	"lcd.h"
+
+1460002515 source:/home/kenzanin/tmp/avr/keypad01/main.c
+	<util/delay.h>
+	<avr/io.h>
+	<avr/interrupt.h>
+	"lcd.h"
+	"keypad.h"
+	"displayFB.h"
+
+1460002030 source:/home/kenzanin/tmp/avr/keypad01/keypad.c
+	<avr/io.h>
+	<avr/interrupt.h>
+	<util/delay.h>
+	"lcd.h"
+	"keypad.h"
+	"displayFB.h"
+
